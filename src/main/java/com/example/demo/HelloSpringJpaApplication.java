@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+//@RestController
 @SpringBootApplication
 public class HelloSpringJpaApplication {
 
@@ -13,8 +13,8 @@ public class HelloSpringJpaApplication {
 		SpringApplication.run(HelloSpringJpaApplication.class, args);
 	}
 
-	@GetMapping
-	public String helloworld() {
-		return "Hello World";
-	}
+//	@GetMapping
+//	public String helloworld() {
+//		return "Hello World";
+//	}
 }
